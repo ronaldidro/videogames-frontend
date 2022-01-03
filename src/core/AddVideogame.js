@@ -80,7 +80,7 @@ const AddVideogame = () => {
           price: '',
           quantity: '',
           loading: false,
-          createdVideogame: data.name
+          createdVideogame: data.data.name
         })
       }
     })
